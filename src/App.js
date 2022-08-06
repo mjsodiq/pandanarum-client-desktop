@@ -2,8 +2,8 @@ import React from "react";
 
 function App() {
     return (
-        <div className="App">
-            <div className=" bg-red-500">Test</div>
+        <div className="App min-h-screen min-w-full flex flex-col">
+            <div className=" self-center border">Under maintenance</div>
         </div>
     );
 }
