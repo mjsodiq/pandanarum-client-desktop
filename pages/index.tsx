@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import MyHome from "../components/home/index";
 
 const Home: NextPage = () => {
     return (
@@ -10,11 +11,11 @@ const Home: NextPage = () => {
                 <title>Pandanarum</title>
             </Head>
 
-            <main className={styles.main}>
-                <div className="w-full border min-h-screen flex flex-col">Pandanarum</div>
+            <main className="bg-slate-200 flex flex-col w-full h-screen">
+                <MyHome />
             </main>
 
-            <footer className={styles.footer}></footer>
+            {/* <footer className={styles.footer}></footer> */}
         </div>
     );
 };
